@@ -9,7 +9,7 @@ cask "prompt-combo" do
       verified: "github.com/fxpoet/prompt-combo-releases/"
   name "PromptCombo"
   desc "Desktop workbench for chaining AI coding prompts into workflows"
-  homepage "https://github.com/fxpoet/prompt-combo-releases"
+  homepage "https://prompt-combo.com/"
 
   # electron-updater 가 앱 스스로 업데이트하므로 Homebrew 는 버전 관리에서 손을 뗀다.
   # (이 줄이 없으면 brew 와 앱 자가 업데이트가 버전 기록을 두고 충돌한다)
