@@ -1,9 +1,9 @@
 cask "prompt-combo" do
-  version "0.9.5"
+  version "0.9.6"
   # arm64 mac dmg 의 sha256. mac 빌드(npm run build:mac) 후 릴리스에 dmg가 올라가면 아래 명령으로 계산해 교체:
   #   shasum -a 256 dist/PromptCombo-#{version}-arm64-mac.dmg
   # 또는 릴리스에서 받아서:  curl -L <dmg-url> | shasum -a 256
-  sha256 "033b4a49b8ff365c98fc69735a079802a7e36e4f005c3cee51c29ae12b2110e4"
+  sha256 "2d15f5d60bdc07c0c2ddee50017b4a05871c8a2d8f92fc6da9813c51622544b0"
 
   url "https://github.com/fxpoet/prompt-combo-releases/releases/download/v#{version}/PromptCombo-#{version}-arm64-mac.dmg",
       verified: "github.com/fxpoet/prompt-combo-releases/"
