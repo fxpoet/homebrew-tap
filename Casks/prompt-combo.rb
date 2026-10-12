@@ -5,8 +5,7 @@ cask "prompt-combo" do
   # 또는 릴리스에서 받아서:  curl -L <dmg-url> | shasum -a 256
   sha256 "a511ef72670e966c812074be42cd601f9ff1fda0a624869085a55444dfbc4ff7"
 
-  url "https://github.com/fxpoet/prompt-combo-releases/releases/download/v#{version}/PromptCombo-#{version}-arm64-mac.dmg",
-      verified: "github.com/fxpoet/prompt-combo-releases/"
+  url "https://github.com/fxpoet/prompt-combo-releases/releases/download/v#{version}/PromptCombo-#{version}-arm64-mac.dmg"
   name "PromptCombo"
   desc "Desktop workbench for chaining AI coding prompts into workflows"
   homepage "https://prompt-combo.com/"
