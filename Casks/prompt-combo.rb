@@ -1,4 +1,6 @@
 cask "prompt-combo" do
+  # Final PromptCombo release. Keep this cask at 0.9.13.
+  # ComboRun will be distributed as a separate combo-run cask.
   version "0.9.13"
   # arm64 mac dmg 의 sha256. mac 빌드(npm run build:mac) 후 릴리스에 dmg가 올라가면 아래 명령으로 계산해 교체:
   #   shasum -a 256 dist/PromptCombo-#{version}-arm64-mac.dmg
